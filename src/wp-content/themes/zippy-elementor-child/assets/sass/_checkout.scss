@@ -1,0 +1,16 @@
+#checkout-block {
+  font-family: var(--e-global-typography-secondary-font-family);
+  #order_review {
+    th,
+    td,
+    bdi {
+      color: var(--e-global-color-text);
+    }
+  }
+  #place_order {
+    margin-top: 15px;
+    background: var(--e-global-color-accent);
+    color: var(--e-global-color-text);
+    border-radius: 100px !important;
+  }
+}

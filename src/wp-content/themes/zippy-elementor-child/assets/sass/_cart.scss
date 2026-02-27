@@ -1,0 +1,34 @@
+#cart-block {
+  font-family: var(--e-global-typography-secondary-font-family) !important;
+  .woocommerce-cart-form {
+    thead {
+      background-color: var(--e-global-color-accent);
+      th {
+        color: var(--e-global-color-text);
+      }
+    }
+  }
+  .product-quantity {
+    .quantity {
+      .input-text {
+        width: 80px !important;
+        border: none;
+        &:focus-visible {
+          outline: none !important;
+        }
+      }
+    }
+  }
+  .cart_totals {
+    th,
+    bdi {
+      color: var(--e-global-color-text);
+    }
+  }
+  .checkout-button {
+    background: var(--e-global-color-accent);
+    color: var(--e-global-color-text);
+    border-radius: 100px !important;
+    text-transform: uppercase;
+  }
+}

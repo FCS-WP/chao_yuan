@@ -1,0 +1,30 @@
+#hp-banner-section {
+  #hp-banner-buttons {
+    #reserve-btn {
+      .elementor-button {
+        transition:
+          transform 0.2s ease-out,
+          background-color 0.2s ease-out;
+        &:hover {
+          transform: scale(0.9);
+          background: none !important;
+          border: 1px solid var(--e-global-color-accent);
+          color: var(--e-global-color-accent);
+        }
+      }
+    }
+    #menu-btn {
+      .elementor-button {
+        background: none !important;
+        .elementor-button-content-wrapper {
+          padding-bottom: 10px;
+          border-bottom: 2px solid var(--e-global-color-accent);
+        }
+        transition: 0.3 ease-in-out;
+        &:hover {
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}

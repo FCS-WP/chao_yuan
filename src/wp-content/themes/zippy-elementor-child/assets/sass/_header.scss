@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  #header-block {
+    .jkit-hamburger-menu {
+      outline: none !important;
+      border: none !important;
+      .e-font-icon-svg {
+        outline: none !important;
+        border: none !important;
+      }
+      &:focus {
+        background: none !important;
+      }
+    }
+    .jkit-close-menu {
+      &:focus {
+        background: none !important;
+      }
+    }
+  }
+}
