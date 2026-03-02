@@ -17,7 +17,7 @@ $("#hp-our-reviews").slick({
         slidesToScroll: 1,
         infinite: true,
         dots: true,
-        arrows:false
+        arrows:true
       },
     },
   ],
